@@ -1,0 +1,16 @@
+.btnbox{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+#btn{
+    
+    background-color: aqua;
+    padding: 2rem;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 5rem;
+}
+}

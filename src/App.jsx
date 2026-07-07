@@ -1,0 +1,17 @@
+import React from 'react'
+import './app.scss'
+import HomePage from './components/ HomePage'
+import GamePage from './components/GamePage'
+import {Routes,Route} from  "react-router-dom"
+const App = () => {
+  return (
+    <div>
+      <Routes>
+        <Route path='/' element={<HomePage/>}/>
+        <Route path='/gamepage'element={<GamePage/>}/>
+      </Routes>
+    </div>
+  )
+}
+
+export default App
